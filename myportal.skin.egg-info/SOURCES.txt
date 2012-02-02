@@ -1,0 +1,15 @@
+README.txt
+setup.cfg
+setup.py
+myportal/__init__.py
+myportal.skin.egg-info/PKG-INFO
+myportal.skin.egg-info/SOURCES.txt
+myportal.skin.egg-info/dependency_links.txt
+myportal.skin.egg-info/entry_points.txt
+myportal.skin.egg-info/namespace_packages.txt
+myportal.skin.egg-info/not-zip-safe
+myportal.skin.egg-info/paster_plugins.txt
+myportal.skin.egg-info/requires.txt
+myportal.skin.egg-info/top_level.txt
+myportal/skin/__init__.py
+myportal/skin/tests.py
