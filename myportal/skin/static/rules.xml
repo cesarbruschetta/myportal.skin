@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<rules xmlns="http://namespaces.plone.org/diazo" 
+	   xmlns:css="http://namespaces.plone.org/diazo/css" 
+	   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+	<!-- Prevent theme usage in zmi -->
+    <rules css:if-content="#visual-portal-wrapper">
+	
+		<theme href="theme.html" />
+	</rules>
+    
+	<!-- Pull in Plone CSS -->
+    <prepend theme="/html/head" 
+		 	 content="/html/head/link | /html/head/style | /html/head/script | /html/head/title | /html/head/base | /html/head/meta" />
+	
+	<!-- Logo -->
+	<copy css:content="#portal-logo" css:theme="#logo" />
+	
+	<!-- Login User -->
+	<replace css:content="#portal-personaltools-wrapper" css:theme="#login" />
+	
+	<!-- Busca -->
+	<replace css:content="#portal-searchbox" css:theme="#busca" />
+	
+	
+	<!--
+	<replace css:content="#portal-searchbox" css:theme="#portal-searchbox" />
+	<drop attributes="class" css:content="#searchGadget" />
+	<drop attributes="placeholder" css:content="#searchGadget" />
+	<copy css:content-children="#menu_viewlet" css:theme="#nav" />
+	<copy css:content-children="#alert_display" css:theme="#alert-display" /> 
+	<copy css:content-children="#portal-breadcrumbs" css:theme="#geral_breadcrumb" />
+-->
+	<!-- Menu do Portal -->
+	<copy css:content-children="#portal-globalnav" css:theme="#theme_nav" />
+	
+	<!-- Portal Column-->
+	<copy css:content-children="#portal-columns" css:theme="#content_column" />
+	
+	
+	<!-- Portal Footer 
+	<copy css:content-children="#macro_logofooter" css:theme="#rodape .logo" />
+	<copy css:content-children="#macro_textfooter" css:theme="#informacao" />
+	-->
+
+</rules>

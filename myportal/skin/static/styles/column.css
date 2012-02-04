@@ -1,0 +1,79 @@
+/*
+Template Name: Academic Education
+File: 3 Column CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#container #content_column{
+	display:block;
+	float:left;
+	width:100%;
+	font-size:16px;
+	}
+
+#column{
+	display:block;
+	float:right;
+	width:300px;
+	}
+	
+	
+	/* ----------------------------------------------Search Form-------------------------------------*/
+
+#livesearch0{
+	display:block;
+	float:right;
+	width:290px;
+	}
+
+#livesearch0 strong{
+	display:block;
+	float:left;
+	margin:0;
+	padding:7px 15px 0 0;
+	text-transform:uppercase;
+	color:#C6CDD6;
+	background-color:#06213F;
+	}
+
+#livesearch0 input{
+	display:block;
+	float:left;
+	height:25px;
+	margin:0 15px 0 0;
+	padding:0 5px;
+	color:#979797;
+	background:url("++theme++myportal.skin/images/form_input_long.gif") 0 0 no-repeat #F9F9F9;
+	border:none;
+	}
+
+#livesearch0 input[type='text']{
+	width:230px;	
+
+}
+
+#livesearch0 input[type='checkbox']{
+	margin:1px 5px 0px 5px;	
+	height:14px;
+	background:none
+}
+
+
+#livesearch0 input.searchButton{
+	width:23px;
+	height:23px;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+	background:none;
+	float:left;
+	background:url("++theme++myportal.skin/images/search.gif")
+	}
+	
+#livesearch0 .searchSection{
+	float:left;
+	color:#fff;
+	font-weight:bolder;
+}
