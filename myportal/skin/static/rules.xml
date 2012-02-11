@@ -22,25 +22,10 @@
 	<!-- Busca -->
 	<replace css:content="#portal-searchbox" css:theme="#busca" />
 	
-	
-	<!--
-	<replace css:content="#portal-searchbox" css:theme="#portal-searchbox" />
-	<drop attributes="class" css:content="#searchGadget" />
-	<drop attributes="placeholder" css:content="#searchGadget" />
-	<copy css:content-children="#menu_viewlet" css:theme="#nav" />
-	<copy css:content-children="#alert_display" css:theme="#alert-display" /> 
-	<copy css:content-children="#portal-breadcrumbs" css:theme="#geral_breadcrumb" />
--->
 	<!-- Menu do Portal -->
 	<copy css:content-children="#portal-globalnav" css:theme="#theme_nav" />
 	
 	<!-- Portal Column-->
 	<copy css:content-children="#portal-columns" css:theme="#content_column" />
-	
-	
-	<!-- Portal Footer 
-	<copy css:content-children="#macro_logofooter" css:theme="#rodape .logo" />
-	<copy css:content-children="#macro_textfooter" css:theme="#informacao" />
-	-->
 
 </rules>
