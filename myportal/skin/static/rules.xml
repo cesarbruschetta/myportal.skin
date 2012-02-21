@@ -26,6 +26,7 @@
 	<copy css:content-children="#portal-globalnav" css:theme="#theme_nav" />
 	
 	<!-- Portal Column-->
+	<replace css:content="#banner" css:theme="#banner" />
 	<copy css:content-children="#portal-columns" css:theme="#content_column" />
-
+	<drop css:content="#drop" />
 </rules>

@@ -93,6 +93,16 @@ div.wrapper{
 	background:none;
 	color:#000;
 }
+/* ----------------------------------------------Content-------------------------------------*/
+
+#container{
+	line-height:1.6em;
+	background:url("../images/round_bot.gif") bottom left no-repeat;
+	}
+
+#content .documentDescription{
+	margin:10px;
+}
 
 /* ----------------------------------------------Footer-------------------------------------*/
 
